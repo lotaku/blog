@@ -4,7 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lotaku'
 SITENAME = u'Lotaku'
-SITEURL = ''
+#pelicanconf.py 添加:
+#SITEURL = 'http://lotaku.github.io'
+#如果要在本地调试测试显示disqus,修改SITEURL
+SITEURL = 'http://127.0.0.1:8000'
+DISQUS_SITENAME = u'lotaku'
+
 GITHUB_URL = 'http://github.com/ametaireau/'
 
 PATH = 'content'
