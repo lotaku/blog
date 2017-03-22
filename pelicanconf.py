@@ -4,10 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Lotaku'
 SITENAME = u'Lotaku'
-#pelicanconf.py 添加:
-#SITEURL = 'http://lotaku.github.io'
-#如果要在本地调试测试显示disqus,修改SITEURL
-SITEURL = 'http://127.0.0.1:8000'
+SITEURL = 'http://lotaku.github.io'
+# 如果要在本地调试测试显示disqus,修改SITEURL
+# SITEURL = 'http://127.0.0.1:8000'
 DISQUS_SITENAME = u'lotaku'
 
 GITHUB_URL = 'http://github.com/ametaireau/'
@@ -38,19 +37,19 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['/Users/l/learnspace/pelican-plugins']
 PLUGINS = ['tipue_search', 'i18n_subsites']
-#THEME = '/Users/l/learnspace/pelican-themes-master/pelican-bootstrap3'
+# THEME = '/Users/l/learnspace/pelican-themes-master/pelican-bootstrap3'
 THEME = '/Users/l/learnspace/blog/themes_self/pelican-elegant-1.3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search', 'tags')
 
 STATIC_PATHS = [
-    #'pictures',
-    #'extra/robots.txt',
+    # 'pictures',
+    # 'extra/robots.txt',
     'static',
 ]
 
@@ -68,6 +67,6 @@ TAG_URL = 'tag/{slug}.html'
 TAG_SAVE_AS = 'tag/{slug}.html'
 AUTHOR_URL = 'author/{slug}.html'
 AUTHOR_SAVE_AS = 'author/{slug}.html'
-#YEAR_ARCHIVE_SAVE_AS = ''
-#MONTH_ARCHIVE_SAVE_AS = ''
-#DAY_ARCHIVE_SAVE_AS = ''
+# YEAR_ARCHIVE_SAVE_AS = ''
+# MONTH_ARCHIVE_SAVE_AS = ''
+# DAY_ARCHIVE_SAVE_AS = ''
