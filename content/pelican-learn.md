@@ -7,7 +7,7 @@ Category: Tools
 ### 学习材料
 官方文档：http://docs.getpelican.com/en/3.3.0/
 ### 介绍
-可以在github上搭建一个全静态化的博客网站
+可以在github上搭建一个全静态化的博客网站.
 
 ###安装等准备工作
 http://docs.getpelican.com/en/3.3.0/getting_started.html
@@ -25,7 +25,6 @@ alias myblogsp='cd ~/app/myblog/ &&./develop_server.sh stop'
 ### 进入新建的目录，比如myblog目录
 
 ```bash
-
 $pelican-quickstart
 ```
 
